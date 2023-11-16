@@ -1,0 +1,18 @@
+html,
+body,
+.container {
+  height: 100vh;
+}
+
+body {
+  background: #23013b;
+}
+
+.container {
+  display: flex;
+  place-content: center center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  place-items: center;
+  padding: 3rem;
+}
